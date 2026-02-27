@@ -10,7 +10,7 @@ void solve(){
 	int N=s.length();
 	for(int ctr=1;ctr<(1<<N);ctr++){
 		for(int sh=0;sh<N;sh++){
-			if((ctr&(1&&sh))!=0){
+			if((ctr&(1<<sh))!=0){
 				cout<<s[sh];
 			}
 		}
