@@ -12,7 +12,7 @@ void solve(){
 	for (char ch:s){
         flag=flag|(1<<ch-'a');
 	}
-	cout<<((flag == (1<<(26-1)))?"yes":"no");
+	cout<<((flag == (1<<26)-1)?"yes":"no");
 
 }
 int main(){
