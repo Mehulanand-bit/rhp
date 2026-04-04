@@ -20,7 +20,7 @@ int main() {
         required[i] = required[i - 1] - 1;
     }
 
-    priority_queue<int, vector<int>, greater<int>> extraDigNee; // min heap
+    priority_queue<int, vector<int>, greater<int>> extraDigNee; 
 
     for (int i = 0; i < n; i++) {
         int diff = heights[i] - required[i];
